@@ -10,7 +10,7 @@ const JoinUsSection = () => {
       py="6"
       gap={0}
     >
-      <Text fontSize={{ base: "10vw", sm: "5vw" }}>APRIL 6, 2025</Text>
+      <Text fontSize={{ base: "10vw", sm: "5vw" }}>APRIL 4-6, 2025</Text>
       <Text fontSize={{ base: "5vw", sm: "4vw" }}>
         JOIN US AT CITYSERVE 2025
       </Text>
@@ -30,7 +30,7 @@ const JoinUsSection = () => {
         fontSize={{ base: "1.3vw", sm: "1.3vw" }}
         href="https://forms.gle/UoAwhzPYqgkUsdcf6"
       >
-        FILL OUT THIS FORM IF YOU ARE <br /> INTERESTED AND WANT TO KNOW MORE!{" "}
+        CITYSERVE 2025 INTEREST FORM{" "}
       </Button>
     </VStack>
   );

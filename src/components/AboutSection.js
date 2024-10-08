@@ -6,6 +6,8 @@ import {
   Box,
   Container,
   HStack,
+  Button,
+  Link,
 } from "@chakra-ui/react";
 
 const AboutSection = () => {
@@ -25,18 +27,20 @@ const AboutSection = () => {
         >
           <Image
             src={process.env.PUBLIC_URL + "images/cityserve_logo.png"}
-            w={{ base: "80%", sm: "70%" }}
+            w={{ base: "80%", sm: "70%", lg: "65%" }}
+            marginTop={{ base: "5", md: "0" }}
           />
           <Box
             textAlign="center"
             background="radial-gradient(50% 50% at 50% 50%, #FFF 30%, rgba(255, 255, 255, 0.00) 100%)"
-            pb="14"
+            pb="1"
           >
             <Text
               fontFamily="Gotham"
               textShadow="0px 3.428px 46.274px rgba(255, 255, 255, 0.55);"
-              fontSize={{ base: "5vw", sm: "4.5vw" }}
+              fontSize={{ base: "5vw", sm: "4.5vw", lg: "4vw" }}
               fontWeight={{ base: "900" }}
+              marginTop={{ base: "5", md: "0" }}
             >
               APRIL 4-6, 2024
             </Text>
@@ -54,12 +58,32 @@ const AboutSection = () => {
               display={{ base: "block", sm: "none" }}
               fontFamily="Gotham"
               fontSize="3vw"
+              paddingTop="4"
               background="radial-gradient(50% 50% at 50% 50%, #FFF 0%, rgba(255, 255, 255, 0.00) 100%)"
             >
               <b>Visible display</b> and <b>viable demonstration</b> <br />
               of God’s love for the city
             </Text>
           </Box>
+          <Button
+            bgColor="#FFFCF3"
+            textColor="#183B5D"
+            fontFamily="Gotham"
+            fontWeight="900"
+            w={{ base: "40%", sm: "35%" }}
+            h={{ base: "4em", sm: "2.6em" }}
+            mt={{ base: "2" }}
+            px={{ base: "4em", sm: "1em" }}
+            textAlign="center"
+            borderRadius={50}
+            as={Link}
+            target="_blank"
+            fontSize={{ base: "1.3vw", sm: "1.3vw" }}
+            href="https://forms.gle/UoAwhzPYqgkUsdcf6"
+            mb="10"
+          >
+            CITYSERVE 2025 INTEREST FORM{" "}
+          </Button>
         </Flex>
       </Container>
       <VStack bgColor="#FFFCF3" pt="2" pb={{ base: "5", sm: "10" }}>
