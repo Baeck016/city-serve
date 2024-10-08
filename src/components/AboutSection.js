@@ -42,7 +42,7 @@ const AboutSection = () => {
               fontWeight={{ base: "900" }}
               marginTop={{ base: "5", md: "0" }}
             >
-              APRIL 4-6, 2024
+              APRIL 4-6, 2025
             </Text>
             <Text
               display={{ base: "none", sm: "block" }}
