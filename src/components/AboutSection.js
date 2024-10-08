@@ -38,7 +38,7 @@ const AboutSection = () => {
               fontSize={{ base: "5vw", sm: "4.5vw" }}
               fontWeight={{ base: "900" }}
             >
-              MARCH 17, 2024
+              APRIL 4-6, 2024
             </Text>
             <Text
               display={{ base: "none", sm: "block" }}

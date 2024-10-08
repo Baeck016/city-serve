@@ -11,14 +11,14 @@ const VideoSection = () => {
         py="2"
         fontSize={{ base: "3.5vw", sm: "2vw" }}
       >
-        CHECK OUT WHAT HAPPENED IN 2023!
+        CHECK OUT WHAT HAPPENED IN 2024!
       </Box>
       <AspectRatio mb="5" width="80%" ratio={16 / 9}>
         <iframe
           title="video-embed"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-          src="https://www.youtube.com/embed/wj7FnRB-0zk?si=5_1uy1aXIN_WIhMH"
+          src="https://www.youtube.com/embed/s7SGGr8nmW0?si=h5wwg6eqL9sP0drY"
         />
       </AspectRatio>
     </VStack>

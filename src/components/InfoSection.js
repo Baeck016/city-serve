@@ -42,6 +42,20 @@ const InfoSection = () => {
                   w="11%"
                 />
               </HStack>
+              <HStack justifyContent="center">
+                <Image
+                  src={process.env.PUBLIC_URL + "images/partnered_logo_9.webp"}
+                  w="30%"
+                />
+                <Image
+                  src={process.env.PUBLIC_URL + "images/partnered_logo_10.png"}
+                  w="35%"
+                />
+                <Image
+                  src={process.env.PUBLIC_URL + "images/partnered_logo_8.png"}
+                  w="10%"
+                />
+              </HStack>
             </VStack>
             {/* <VStack w="50%">
               <HStack justifyContent="space-evenly">
@@ -136,6 +150,20 @@ const InfoSection = () => {
               <Image
                 src={process.env.PUBLIC_URL + "images/partnered_logo_5.png"}
                 w="17%"
+              />
+            </HStack>
+            <HStack justifyContent="center">
+              <Image
+                src={process.env.PUBLIC_URL + "images/partnered_logo_9.webp"}
+                w="34%"
+              />
+              <Image
+                src={process.env.PUBLIC_URL + "images/partnered_logo_10.png"}
+                w="38%"
+              />
+              <Image
+                src={process.env.PUBLIC_URL + "images/partnered_logo_8.png"}
+                w="14%"
               />
             </HStack>
             {/* <Text fontWeight={700} fontSize="4vw">
